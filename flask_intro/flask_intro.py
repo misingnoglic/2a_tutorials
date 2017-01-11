@@ -1,9 +1,15 @@
+# To run this file:
+# 1. Make sure flask is installed. If it's not, do "pip install flask"
+# 2. Run "python flask_intro.py" when in the correct folder
+
 from flask import Flask
 from flask import render_template
+
+# Creates the app
 app = Flask(__name__)
 
 # The first function we wrote, no arguments
-@app.route('/') # '/' is the URL for the home page
+@app.route('/') # Routes this function to the homepage
 def hello_world():
     return 'Hello World!'
 	
