@@ -1,4 +1,4 @@
-Item,Quantity,Price per item
-Bag of carrots,3,$3
-Box of cookies,2,$4
-Brie Cheese,1,$4
+Item,Quantity,Price per item in Dollars
+Bag of carrots,3,3
+Box of cookies,2,4
+Brie Cheese,1,4
